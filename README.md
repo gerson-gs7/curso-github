@@ -35,13 +35,15 @@ Para fazer o commit de alguma alteração:
 ```
 git commit nome_do_arquivo.ex -m "mensagem de commit
 ```
-Para fazer commit de todo o código trocar o nome do arquivo por .
-
+Para fazer commit de todo o código trocar o nome do arquivo por um ponto. Ex:
+```
+git commit . -m "mensagem de commit
+```
 Depois de fazer o commit você deve mandar o código pro repositório usando o comando:
 ```
 git push
 ```
-Para verificar de teve alterações no repositório local ou remoto, usar o comando:
+Para verificar se teve alterações no repositório local ou remoto, usar o comando:
 ```
 git status
 ```
