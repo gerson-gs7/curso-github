@@ -51,3 +51,17 @@ Para trazer alterações do repositório remoto pro repositório local usar o co
 ```
 git pull
 ```
+Para restaurar o projeto pra um commit específico usar o comando:
+```
+git restore --source code01 .
+```
+e depois para trazer o codigo:
+```
+git push
+```
+lembrar de comitar as mudanças.
+
+Para adicionar mudanças ao repositorio local com um arquivo novo por Ex:
+```
+git add .  ou  git add nome-do-arquivo
+```
