@@ -20,17 +20,17 @@ Já entendemos que o Git é uma ferramenta importante para trabalharmos com dife
 
 ````git clone````: clona um repositório para o seu ambiente local. É utilizado para obter uma cópia completa do repositório, incluindo todos os arquivos e histórico de commits. É utilizado quando você deseja obter uma cópia completa de um repositório remoto para começar um novo projeto ou colaborar com um projeto existente;
 
-git branch: cria, lista ou exclui branches. Um branch é uma ramificação do histórico de commits, permitindo trabalhar em paralelo em diferentes versões do projeto;
+````git branch````: cria, lista ou exclui branches. Um branch é uma ramificação do histórico de commits, permitindo trabalhar em paralelo em diferentes versões do projeto;
 
-````git checkout````: altera o branch atual ou restaura arquivos. É utilizado para alternar entre branches existentes ou restaurar arquivos para uma versão anterior. Atenção: é um comando que tem mais de uma função, se você quiser apenas trocar de branch sem alterar modificações, você pode utilizar o git switch;
+````git checkout````: altera o branch atual ou restaura arquivos. É utilizado para alternar entre branches existentes ou restaurar arquivos para uma versão anterior. Atenção: é um comando que tem mais de uma função, se você quiser apenas trocar de branch sem alterar modificações, você pode utilizar o ````git switch````;
 
 ````git checkout -b “informe_o_nome_da_branch”````: Cria uma nova branch e muda para ela;
 
 ````git switch “nome_da_branch”````: troca de uma branch para outra sem realizar alterações de estado. Observação: comando ainda em fase de experimentação;
 
-git merge: mescla alterações de um branch para outro. É utilizado para combinar as alterações feitas em um branch com outro, integrando as modificações;
+````git merge````: mescla alterações de um branch para outro. É utilizado para combinar as alterações feitas em um branch com outro, integrando as modificações;
 
-````git pull````: atualiza o repositório local com as alterações do repositório remoto. Quando você já possui uma cópia do repositório em seu computador e deseja trazer as últimas alterações feitas por outros colaboradores para sincronizá-las com seu repositório local. É diferente do git clone, que faz um clone do repositório remoto na sua máquina.
+````git pull````: atualiza o repositório local com as alterações do repositório remoto. Quando você já possui uma cópia do repositório em seu computador e deseja trazer as últimas alterações feitas por outros colaboradores para sincronizá-las com seu repositório local. É diferente do ````git clone````, que faz um clone do repositório remoto na sua máquina.
 
 ````git fetch````: busca as alterações do repositório remoto, mas não as mescla com o branch atual. É para obter informações mais recentes do repositório e verificar se há mudanças. Diferente do ````git pull```` , que já copia as alterações do repositório remoto;
 
